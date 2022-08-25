@@ -9,7 +9,7 @@ public class Main {
         int volume = dlina * shirina * visota;
         System.out.println("Volume of paralelepiped = " + volume);
 
-        int length = dlina + shirina + visota;
+        int length = 4 * (dlina + shirina + visota);
         System.out.println("Length of all sides = " + length);
     }
 }
