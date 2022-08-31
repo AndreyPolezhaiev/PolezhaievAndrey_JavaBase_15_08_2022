@@ -10,7 +10,7 @@ public class Main {
         int luchnikLi = 24;
         int vershnikLi = 46;
 
-        int powerLi = voinLi * amountOfLi + luchnikLi * amountOfLi + vershnikLi * amountOfLi;
+        int powerLi = (voinLi + luchnikLi + vershnikLi) * amountOfLi;
         System.out.println("Power of Li dynasty = " + powerLi + ";");
 
         //////////////////////////////////////
@@ -20,7 +20,7 @@ public class Main {
         double luchnikMin = 35;
         double vershnikMin = 12;
 
-        double powerMin = voinMin * amountOfMin + luchnikMin * amountOfMin + vershnikMin * amountOfMin;
+        double powerMin = (voinMin + luchnikMin + vershnikMin) * amountOfMin;
         System.out.println("Power of Min dynasty = " + (int)powerMin + ";");
 
     }
