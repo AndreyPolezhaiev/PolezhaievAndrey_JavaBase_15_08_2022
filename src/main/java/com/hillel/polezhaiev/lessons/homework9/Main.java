@@ -9,7 +9,7 @@ public class Main {
 
         //Initialisation of owner's numbers
         for (int i = 0; i < owner.length; i++) {
-            owner[i] = (int)(Math.random() * 9);
+            owner[i] = (int)(Math.random() * 10);
             System.out.print(owner[i] + " ");
         }
 
@@ -17,7 +17,7 @@ public class Main {
 
         //Initialisation of player's numbers
         for (int i = 0; i < player.length; i++) {
-            player[i] = (int)(Math.random() * 9);
+            player[i] = (int)(Math.random() * 10);
             System.out.print(player[i] + " ");
         }
 
