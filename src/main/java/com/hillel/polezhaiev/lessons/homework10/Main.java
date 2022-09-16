@@ -58,6 +58,12 @@ public class Main {
             if(scanner.hasNextInt())
             {
                 temp = scanner.nextInt();
+                if(temp <= 0)
+                {
+                    System.out.println("Wrong data!!!");
+                    scanner.nextLine();
+                    continue;
+                }
                 break;
             } else {
                 System.out.println("Wrong data!!!");
