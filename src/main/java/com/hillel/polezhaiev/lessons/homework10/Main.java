@@ -52,7 +52,7 @@ public class Main {
     static int getValue(Scanner scanner)
     {
         int temp = 0;
-        System.out.println("Enter Integer: ");
+        System.out.println("Enter positive Integer: ");
         while(true)
         {
             if(scanner.hasNextInt())
