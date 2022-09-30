@@ -7,10 +7,10 @@ public class User {
     private final String email;
     private final String phone;
 
-    protected String surname;
-    protected double weight;
-    protected String press;
-    protected int steps;
+    private String surname;
+    private double weight;
+    private String press;
+    private int steps;
 
     private int age;
 

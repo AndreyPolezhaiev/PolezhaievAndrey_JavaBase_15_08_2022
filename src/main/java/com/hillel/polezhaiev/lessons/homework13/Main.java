@@ -17,7 +17,6 @@ public class Main {
 
         System.out.println("Changed");
 
-        user2.weight = 65;
         user2.setSteps(8766);
         user3.setSurname("Lesnik");
         user3.setPress("144/96");
