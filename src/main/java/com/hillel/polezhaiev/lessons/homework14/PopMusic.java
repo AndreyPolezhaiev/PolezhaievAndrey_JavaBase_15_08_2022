@@ -2,7 +2,7 @@ package com.hillel.polezhaiev.lessons.homework14;
 
 public class PopMusic extends MusicStyles {
 
-    String person;
+    private String person;
 
     public PopMusic(String person){
         this.person = person;
