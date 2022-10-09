@@ -28,27 +28,29 @@ public class ArrayUtils {
     public static boolean squareMatrix(int[][]matrix){
 
         int sum = 0;
+        int value = 0;
+        int last = 0;
 
         if(matrix.length == 0){
-            return true;
-        }
-
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
-                if(i == j){
-                    sum++;
-                }
-            }
-        }
-
-        if(sum == 1){
             return false;
         }
 
-        if(sum % 2 == 0){
-            return true;
+        for (int i = 0; i < matrix.length; i++) {
+            value++;
+            for (int j = 0; j < matrix[i].length; j++) {
+                sum++;
 
+            }
         }
+
+        if(sum / value == 1){
+            return false;
+        }
+
+        if(sum / value == value){
+            return true;
+        }
+
         return false;
     }
 
